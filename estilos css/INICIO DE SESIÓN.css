@@ -1,0 +1,19 @@
+
+.imagen{
+    width: 50%;
+    position: absolute;
+    
+    
+    left: 20%;
+}
+
+.fondo{
+background-color: aqua;
+border-radius: 50%;
+width: 900px;
+height: 2100px;
+position: absolute;
+top: -1100px;
+left: -200px;
+z-index: -1;
+}
