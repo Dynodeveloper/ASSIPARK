@@ -6,22 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/estilos css/INICIO DE SESIÓN.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Incio de sesión en Assipark</title>
 </head>
 
 <body>
+    <div class="fondo2"></div>
+    <div class="fondo"></div>
     <div class="imagen">
         <img src="/img/LOGIN_IMG.png" alt="">
     </div>
-    <div class="fondo"></div>
     <div class="container_formularios">
+        <h2 id="titulo_login">Iniciar Sesión</h2>
+        <img src="/img/LOGO_FINAL_ASSIPARK.png" id="logo_login">
         <form action="">
             <div class="container_inputs">
-                <input type="text">
-                <input type="pasword">
-                <input type="submit">
+                <div id="container_input_text">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Número Identificacion" required>
+                </div>
+                <div id="container_input_pasword">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="pasword" placeholder="contraseña" required>
+                </div>
+                <div id="container_input_butom">
+                    <input type="button" value="Iniciar Sesión">
+                </div>
             </div>
         </form>
+        <div id="restablecer">
+            <a href="#"><h2>¿Olvidaste tu contraseña?</h2></a>
+        </div>
     </div>
 </body>
 

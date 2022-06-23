@@ -1,19 +1,115 @@
 
-.imagen{
-    width: 50%;
+.fondo {
     position: absolute;
-    
-    
-    left: 20%;
+    margin-top: -900px;
+    margin-left: -300px;
+    height: 1800px;
+    width: 1000px;
+    background-color: rgb(8, 106, 253);
+    border-radius: 50%;
 }
 
-.fondo{
-background-color: aqua;
-border-radius: 50%;
-width: 900px;
-height: 2100px;
-position: absolute;
-top: -1100px;
-left: -200px;
-z-index: -1;
+.fondo2 {
+    margin-top: 770px;
+    margin-left: -10px;
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    background-color: white;
+    z-index: 3;
+    margin: 5px red solid;
+}
+
+.imagen{
+    position: absolute;
+    left: 90px;
+    margin-top: 130px;
+}
+
+.imagen img {
+    width: 640px;
+    height: 620px;
+}
+
+#titulo_login {
+    color: rgb(46, 43, 43);
+    position: absolute;
+    font-size: 56px;
+    margin-top: 80px;
+    margin-left: 140px;
+}
+
+#logo_login {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    margin-top: 160px;
+    margin-left: 230px;
+
+}
+
+.container_formularios {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 650px;
+    margin-top: 100px;
+    margin-left: 850px;
+}
+
+.container_inputs {
+    padding: 350px 120px;
+}
+
+i {
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: gray;
+}
+.container_inputs input {
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 21.5px;
+
+}
+
+#container_input_pasword {
+    margin-top: 15px;
+}
+
+#container_input_butom {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#container_input_pasword input{
+    background-color: rgb(238, 230, 230);
+}
+
+#container_input_text input{
+    background-color: rgb(238, 230, 230);
+}
+
+#restablecer {
+    z-index: 3;
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 175px;
+}
+
+#restablecer a {
+    text-decoration: none;
+    color: rgb(83, 81, 81);
+}
+
+#container_input_butom input {
+    width: 300px;
+    color: white;
+    background-color: rgb(57, 172, 218);
 }
