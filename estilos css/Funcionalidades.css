@@ -61,3 +61,99 @@ nav a:hover{
 .titulo{
     text-align: center;
 }
+
+.caja1{
+    background-color:white;
+    width: 600px;
+    height: 250px;
+    
+}
+
+.caja1 img{
+    width: 10%;
+    height: 30%;
+}
+
+.caja2{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    margin-top: -15.5px;
+}
+
+.caja2 img{
+    width: 15%;
+    height: 30%;
+}
+
+.caja3{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    margin-top: -16px;
+}
+
+.caja3 img{
+    width: 15%;
+    height: 30%;
+}
+
+.caja4{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+  
+}
+
+.caja4 img{
+    width: 13%;
+    height: 30%;
+}
+
+.caja5{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    margin-top: -16px;
+
+}
+
+.caja5 img{
+    width: 13%;
+    height: 30%;
+}
+
+.caja6{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    margin-top: -16px;
+
+}
+
+.caja6 img{
+    width: 13%;
+    height: 30%;
+}
+
+.todas_las_cajas{
+    display: flex;
+    position: absolute;
+    left: 50px;
+}
+
+.columna-1{
+    position: absolute;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 200px;
+    
+
+}
+
+.columna-2{
+    position: absolute;
+    width: 50%;
+    margin-left: 790px;
+    flex-direction: column;
+}

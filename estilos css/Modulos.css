@@ -62,3 +62,73 @@ nav a:hover{
 .titulo{
     text-align: center;
 }
+
+.caja1{
+    background-color:white;
+    width: 49.9%;
+    height: 250px;
+    float: right;
+    border:1px solid rgb(185, 185, 185);
+}
+
+.caja1 img{
+    width: 10%;
+    height: 30%;
+}
+
+.caja1 p{
+    color: #525be0;
+}
+
+
+.caja2{
+    background-color: white;
+    width: 49.8%;
+    height: 250px;
+    float: left;
+    border:1px solid rgb(185, 185, 185);
+}
+
+.caja2 img{
+    width: 10%;
+    height: 30%;
+}
+
+.caja2 p{
+    color: #525be0;
+}
+
+.caja3{
+    background-color:white;
+    width: 49.9%;
+    height: 250px;
+    float: right;
+    border:1px solid rgb(185, 185, 185);
+}
+
+.caja3 img{
+    width: 10%;
+    height: 30%;
+}
+
+.caja3 p{
+    color: #525be0;
+}
+
+.caja4{
+    background-color: white;
+    width: 49.8%;
+    height: 250px;
+    float: left;
+    border:1px solid rgb(185, 185, 185);
+    
+}
+
+.caja4 img{
+    width: 10%;
+    height: 30%;
+}
+
+.caja4 p{
+    color: #525be0;
+}
