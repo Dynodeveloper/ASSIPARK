@@ -17,7 +17,25 @@
     height: 200px;
     background-color: white;
     z-index: 3;
-    margin: 5px red solid;
+}
+
+#icono {
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#icono a i {
+    color: white;
+    height: 25px;
+    width: 25px;
+    margin-top: 25px;
+    margin-left: 20px;
 }
 
 .imagen{
