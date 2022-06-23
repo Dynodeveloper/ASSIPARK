@@ -1,3 +1,6 @@
+
+/*-------------------------------------------------------header_start------------------------------------------------------------*/
+
 header{
     display: flex;
     justify-content:space-between;
@@ -58,6 +61,75 @@ nav a:hover{
     color:#00b7d4;
 }
 
-.titulo{
+/*-------------------------------------------------------header_end------------------------------------------------------------*/
+
+/*-------------------------------------------------------body_start------------------------------------------------------------*/
+
+#titulo{
+    margin-top: 50px;
     text-align: center;
 }
+
+#parrafo {
+    margin-top: -10px;
+    text-align: center;
+}
+
+.container_forms{
+    width: 700px;
+    height: 520px;
+    position: absolute;
+    top: 250px;
+    left: 120px;
+}
+
+.container_form_1 {
+    width: 100%;
+    height: 90px;
+}
+
+.container_form_2 {
+    width: 100%;
+    height: 90px;
+}
+
+.container_form_3 {
+    width: 630px;
+    height: 173px;
+    padding-left: 70px;
+}
+
+.container_form_3 textarea {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#container_input {
+    width: 550px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+#container_input input{
+    width: 50%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.container_boton {
+    padding-left: 70px;
+}
+
+.container_boton input {
+    width: 160px;
+    height: 55px;
+    background-color: #00b7d4;
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+}
+/*-------------------------------------------------------body_end------------------------------------------------------------*/
