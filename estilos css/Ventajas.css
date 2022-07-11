@@ -65,3 +65,10 @@ nav a:hover{
 }
 
 
+.caja1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: aqua;
+    top: 200px;
+}
