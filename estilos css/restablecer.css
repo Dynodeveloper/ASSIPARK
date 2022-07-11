@@ -18,6 +18,14 @@
     z-index: 3;
 }
 
+.imagen img {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 600px;
+    height: 500px;
+}
+
 #icono {
     width: 60px;
     height: 60px;

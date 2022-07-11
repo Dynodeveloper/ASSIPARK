@@ -134,6 +134,13 @@ nav a:hover{
     left: 850px;
 }
 
+.imagen img {
+    width: 600px;
+    height: 500px;
+    position: relative;
+    top: -40px;
+}
+
 .container_boton input {
     width: 160px;
     height: 55px;
