@@ -64,11 +64,41 @@ nav a:hover{
     text-align: center;
 }
 
+.cajas {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 17%;
+
+}
 
 .caja1 {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    background-color: red;
+    width: 350px;
+    height: 450px;
+    background-color: rgb(237, 245, 250);
     top: 200px;
+    border: 1.5px solid rgb(228, 227, 227);
+}
+
+.caja2 {
+    width: 350px;
+    height: 450px;
+    background-color: rgb(237, 245, 250);
+    top: 200px;
+    margin-left: 10px;
+    border: 1.5px solid rgb(228, 227, 227);
+}
+
+.caja3 {
+    width: 350px;
+    height: 450px;
+    background-color: rgb(237, 245, 250);
+    top: 200px;
+    margin-left: 10px;
+    border: 1.5px solid rgb(228, 227, 227);
+}
+
+.caja1 #textos {
+    position: absolute;
+    top: 70%;
 }
